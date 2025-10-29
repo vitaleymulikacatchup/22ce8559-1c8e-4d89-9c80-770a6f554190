@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -10,7 +10,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import TeamCardThree from '@/components/sections/team/TeamCardThree';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Award, GraduationCap, Heart, Linkedin, Mail, MapPin, Star, Trophy, Twitter, Users, Zap } from "lucide-react";
+import { Award, GraduationCap, Heart, Mail, MapPin, Star, Trophy, Twitter, Users, Zap } from "lucide-react";
 
 export default function Home() {
   return (
@@ -43,7 +43,7 @@ export default function Home() {
             { text: "Watch Highlights", href: "https://fcbarcelona.com" }
           ]}
           imageSrc="https://images.pexels.com/photos/12313588/pexels-photo-12313588.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-          imageAlt="Camp Nou stadium aerial view"
+          imageAlt="Aerial view of Camp Nou stadium filled with spectators during a football match at sunset in Barcelona, Spain."
           imagePosition="right"
         />
       </div>
@@ -110,7 +110,7 @@ export default function Home() {
               rating: 5,
               reviewCount: "850k",
               imageSrc: "https://images.pexels.com/photos/3302365/pexels-photo-3302365.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Robert Lewandowski"
+              imageAlt: "A young African American football player wearing sports gear in an outdoor stadium on a sunny day."
             },
             {
               id: "2",
@@ -120,7 +120,7 @@ export default function Home() {
               rating: 5,
               reviewCount: "720k",
               imageSrc: "https://images.pexels.com/photos/9502006/pexels-photo-9502006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Pedri González"
+              imageAlt: "Female soccer player dribbling a ball during a casual game on a grassy field at sunset."
             },
             {
               id: "3",
@@ -130,7 +130,7 @@ export default function Home() {
               rating: 5,
               reviewCount: "690k",
               imageSrc: "https://images.pexels.com/photos/9502006/pexels-photo-9502006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Ronald Araújo"
+              imageAlt: "Female soccer player dribbling a ball during a casual game on a grassy field at sunset."
             }
           ]}
           carouselMode="buttons"
@@ -151,7 +151,7 @@ export default function Home() {
               company: "Barcelona Local",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/33382396/pexels-photo-33382396.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Portrait of María García"
+              imageAlt: "An enthusiastic football fan celebrating with arms raised in a jersey against a red background."
             },
             {
               id: "2",
@@ -160,7 +160,7 @@ export default function Home() {
               company: "Penya Barcelona Singapore",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/5789418/pexels-photo-5789418.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Portrait of David Chen"
+              imageAlt: "Joyous man celebrating a football victory with fans in a stadium, showing happiness and excitement."
             },
             {
               id: "3",
@@ -169,7 +169,7 @@ export default function Home() {
               company: "Camp Nou Regular",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/4011736/pexels-photo-4011736.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Portrait of Alessandro Rossi"
+              imageAlt: "Crop unrecognizable person in bright yellow shirt standing near white stairway for training in sports hall"
             },
             {
               id: "4",
@@ -178,7 +178,7 @@ export default function Home() {
               company: "Barça Academy",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/27271634/pexels-photo-27271634.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Portrait of Sophie Martin"
+              imageAlt: "Excited women fans celebrate with flags and smiles during a sports event outdoors."
             }
           ]}
           carouselMode="buttons"
@@ -197,10 +197,9 @@ export default function Home() {
               name: "Joan Laporta",
               role: "President",
               imageSrc: "https://images.pexels.com/photos/22028295/pexels-photo-22028295.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Joan Laporta",
+              imageAlt: "Players in green uniforms engage in a dynamic soccer match on a grassy field.",
               socialLinks: [
-                { icon: "Twitter", url: "https://twitter.com/fcbarcelona" },
-                { icon: "Linkedin", url: "https://linkedin.com/company/fcbarcelona" }
+                { icon: Twitter, url: "https://twitter.com/fcbarcelona" }
               ]
             },
             {
@@ -208,9 +207,9 @@ export default function Home() {
               name: "Xavi Hernández",
               role: "Head Coach",
               imageSrc: "https://images.pexels.com/photos/21675896/pexels-photo-21675896.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Xavi Hernández",
+              imageAlt: "A black and white photo of a youth soccer team huddling on the field during dusk.",
               socialLinks: [
-                { icon: "Twitter", url: "https://twitter.com/fcbarcelona" }
+                { icon: Twitter, url: "https://twitter.com/fcbarcelona" }
               ]
             },
             {
@@ -218,10 +217,7 @@ export default function Home() {
               name: "Deco",
               role: "Sporting Director",
               imageSrc: "https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Deco",
-              socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/company/fcbarcelona" }
-              ]
+              imageAlt: "Fans cheer as players take the field at a vibrant football stadium, creating an electric atmosphere."
             }
           ]}
           carouselMode="buttons"
@@ -238,7 +234,7 @@ export default function Home() {
           buttonText="Subscribe"
           termsText="By subscribing, you agree to receive emails from FC Barcelona. Unsubscribe anytime."
           imageSrc="https://images.pexels.com/photos/33079680/pexels-photo-33079680.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-          imageAlt="Camp Nou exterior"
+          imageAlt="Close-up view of the iconic San Siro Stadium in Milan, showcasing its unique architecture."
           mediaPosition="right"
         />
       </div>
