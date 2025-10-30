@@ -12,6 +12,8 @@ import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
 import { Award, GraduationCap, Heart, Mail, MapPin, Star, Trophy, Twitter, Users, Zap } from "lucide-react";
 
+const assetMap = [];
+
 export default function Home() {
   return (
     <ThemeProvider
@@ -227,7 +229,7 @@ export default function Home() {
       <div id="contact" data-section="contact">
         <ContactSplit
           tag="Join Us"
-          title="Become Part of the Barça Family"
+          title="Get Exclusive Barça Access"
           description="Stay connected with FC Barcelona. Get the latest news, match updates, and exclusive content delivered to your inbox."
           tagIcon={Mail}
           inputPlaceholder="Enter your email address"
